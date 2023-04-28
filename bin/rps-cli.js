@@ -30,13 +30,13 @@ if (args.h || args.help){
 }
 
 if (args._.length > 1){
-    console.error("[ARGUMENT] is out of range");
+    console.error("Argument is out of range");
     process.exit(0);
 } else if (args._.length === 0) {
     console.log(JSON.stringify(rpsls.rpsDef()))
  } else {
     let playerMove = args._[0].toLowerCase();
-    if (rpsls.rpsOps.includes(playerMove)) {
+    if (rpsls.rpsChoices.includes(playerMove)) {
        console.log(JSON.stringify(rpsls.rps(playerMove)))
     } else {
        console.error(
