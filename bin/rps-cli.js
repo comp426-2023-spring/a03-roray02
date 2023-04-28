@@ -50,6 +50,7 @@ if (args._.length > 1){
           You can select between: rock, paper, or scissors
           `
        );
+       console.log(rule);
     }
  }
 

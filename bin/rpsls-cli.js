@@ -59,5 +59,6 @@ if (args._.length > 1){
           You can select between: rock, paper, scissors, lizard, or spock
           `
        );
+       console.log(rule);
     }
  }
