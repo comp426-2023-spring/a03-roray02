@@ -1,0 +1,26 @@
+{
+  "name": "node-rpsls",
+  "version": "1.0.0",
+  "description": "Rock paper scissors game",
+  "main": "./lib/rpsls.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2023-spring/a03-roray02.git"
+  },
+  "author": "roray02",
+  "bin": {
+    "node-rps": "./bin/rps-cli.js",
+    "node-rpsls": "rpsls-cli.js" 
+  },
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.7"
+  },
+  "bugs": {
+    "url": "https://github.com/comp426-2023-spring/a03-roray02/issues"
+  },
+  "homepage": "https://github.com/comp426-2023-spring/a03-roray02#readme"
+}
